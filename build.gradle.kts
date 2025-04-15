@@ -4,7 +4,7 @@ plugins {
     id("org.jetbrains.kotlin.android") version "1.9.22" apply false
 }
 
-// Configuración común para todos los módulos
+
 subprojects {
     repositories {
         google()

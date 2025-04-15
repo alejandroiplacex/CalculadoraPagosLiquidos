@@ -1,4 +1,4 @@
-package com.example.calculadorapagosliquidos  // Asegúrate que coincida con tu estructura
+package com.example.calculadorapagosliquidos
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -18,7 +18,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    // Tu contenido principal aquí
+
                 }
             }
         }

@@ -8,7 +8,7 @@ import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
 import androidx.compose.foundation.layout.fillMaxSize
 
-class RegularActivity : ComponentActivity() {  // <-- Asegúrate que herede de ComponentActivity
+class RegularActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
@@ -17,7 +17,7 @@ class RegularActivity : ComponentActivity() {  // <-- Asegúrate que herede de C
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    // Tu contenido Compose aquí
+
                 }
             }
         }
